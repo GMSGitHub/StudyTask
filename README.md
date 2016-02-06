@@ -3,3 +3,5 @@
 <b>Description:</b> Repository for homework tasks. <br> 
 <b>Author:</b> G.Michael.S <br>
 <b>Date:</b> 06.02.2016 <br>
+
+<b>Project Link: https://github.com/GMSGitHub/StudyTask </b>
