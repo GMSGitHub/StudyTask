@@ -24,7 +24,7 @@
             </button>
             <hr>
             <button class="buttons">
-                <a href="../html/lab1.html">TASKLAB1</a>
+                <a href="../html/lab1.html">Task Lab #1</a>
             </button>
         </form>
     </body>
