@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>StudyTask</title>
-        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
         <div class="main">
@@ -12,19 +12,19 @@
                 <h2 align="center">Tasks List</h2>
                 <hr>
                 <button class="buttons">
-                    <a href="../html/lab1.html">Task Lab #1</a>
+                    <a href="html/lab1.html">Task Lab #1</a>
                 </button>
                 <hr>
                 <button class="buttons">
-                    <a href="../html/lab2.html">Task Lab #2</a>
+                    <a href="html/lab2.html">Task Lab #2</a>
                 </button>
                 <hr>
                 <button class="buttons">
-                    <a href="../html/lab3.html">Task Lab #3</a>
+                    <a href="html/lab3.html">Task Lab #3</a>
                 </button>
                 <hr>
                 <button class="buttons">
-                    <a href="../html/lab4.html">Task Lab #4</a>
+                    <a href="html/lab4.html">Task Lab #4</a>
                 </button>
             </form>
             <form class="main">

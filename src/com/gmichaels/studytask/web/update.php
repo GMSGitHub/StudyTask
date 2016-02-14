@@ -2,13 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>StudyTask: SELECT</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>StudyTask: UPDATE</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
 <form name="form">
     <div class="main">
-        <hr><p align="center">SELECT</p><hr>
+        <hr><p align="center">UPDATE</p><hr>
         <div class="customizePage">
             <label for="field1">Field #1 </label>
             <input type="text" class="fields" id="field1"/>

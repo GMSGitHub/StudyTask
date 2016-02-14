@@ -2,13 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>StudyTask: DELETE</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>StudyTask: SELECT</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
 <form name="form">
     <div class="main">
-        <hr><p align="center">DELETE</p><hr>
+        <hr><p align="center">SELECT</p><hr>
         <div class="customizePage">
             <label for="field1">Field #1 </label>
             <input type="text" class="fields" id="field1"/>

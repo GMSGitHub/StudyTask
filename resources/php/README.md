@@ -1,1 +1,0 @@
-All files for PHP.
