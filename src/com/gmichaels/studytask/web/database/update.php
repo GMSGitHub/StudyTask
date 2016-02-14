@@ -2,13 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>StudyTask: SELECT</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>StudyTask: UPDATE</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 </head>
 <body>
 <form name="form">
     <div class="main">
-        <hr><p align="center">SELECT</p><hr>
+        <hr><p align="center">UPDATE</p><hr>
         <div class="customizePage">
             <label for="field1">Field #1 </label>
             <input type="text" class="fields" id="field1"/>
@@ -29,11 +29,12 @@
             <label for="field5">Field #5 </label>
             <input type="text" class="fields" id="field5"/>
         </div>
+        <hr>
         <button class="buttons" onclick="">
             <a href="#">Accept</a>
         </button>
         <button class="buttons">
-            <a href="index.php" >Cancel</a>
+            <a href="../index.php" >Cancel</a>
         </button>
     </div>
 </form>

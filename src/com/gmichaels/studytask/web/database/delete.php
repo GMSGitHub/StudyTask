@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>StudyTask: DELETE</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 </head>
 <body>
 <form name="form">
@@ -29,11 +29,12 @@
             <label for="field5">Field #5 </label>
             <input type="text" class="fields" id="field5"/>
         </div>
+        <hr>
         <button class="buttons" onclick="">
             <a href="#">Accept</a>
         </button>
         <button class="buttons">
-            <a href="index.php" >Cancel</a>
+            <a href="../index.php" >Cancel</a>
         </button>
     </div>
 </form>

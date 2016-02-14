@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>StudyTask: INSERT</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
     </head>
     <body>
         <form name="form">
@@ -36,7 +36,7 @@
                     <a href="#">Accept</a>
                 </button>
                 <button class="buttons">
-                    <a href="index.php" >Cancel</a>
+                    <a href="../index.php" >Cancel</a>
                 </button>
             </div>
         </form>

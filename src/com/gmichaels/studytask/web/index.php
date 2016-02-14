@@ -32,19 +32,19 @@
                 <h2 align="center">CRUD</h2>
                 <hr>
                 <button class="buttons">
-                    <a href="insert.php">INSERT</a>
+                    <a href="database/insert.php">INSERT</a>
                 </button>
                 <hr>
                 <button class="buttons">
-                    <a href="select.php">SELECT</a>
+                    <a href="database/select.php">SELECT</a>
                 </button>
                 <hr>
                 <button class="buttons">
-                    <a href="update.php">UPDATE</a>
+                    <a href="database/update.php">UPDATE</a>
                 </button>
                 <hr>
                 <button class="buttons">
-                    <a href="delete.php">DELETE</a>
+                    <a href="database/delete.php">DELETE</a>
                 </button>
             </form>
         </div>
