@@ -1,5 +1,54 @@
 body {
 
     background-color: azure;
+    font-size: 18px;
+
+}
+
+.customizePage {
+
+    clear: both;
+    text-align: right;
+    line-height: 50px;
+
+}
+
+.fields {
+
+    font-size: 20px;
+    width: auto;
+
+}
+
+label {
+
+    float: left;
+    padding-right: 10px;
+
+}
+
+.main {
+
+    float: left;
+    border: 4px ridge darkcyan;
+    background: beige;
+    padding: 10px;
+
+
+}
+
+.buttons {
+
+    width: 180px;
+    height: 35px;
+    font-size: large;
+    border: 2px groove darkslateblue;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
 
 }
