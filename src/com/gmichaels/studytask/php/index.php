@@ -22,6 +22,10 @@
             <button class="buttons">
                 <a href="delete.php">DELETE</a>
             </button>
+            <hr>
+            <button class="buttons">
+                <a href="task.html">TASKLAB1</a>
+            </button>
         </form>
     </body>
 </html>
