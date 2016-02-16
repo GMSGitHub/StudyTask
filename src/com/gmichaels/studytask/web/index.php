@@ -8,6 +8,11 @@
     <body>
         <div class="main">
             <form class="main">
+                <button class="buttons">
+                    <a href="database/testconnect.php">Test Connect</a>
+                </button>
+            </form>
+            <form class="main">
                 <hr>
                 <h2 align="center">Tasks List</h2>
                 <hr>

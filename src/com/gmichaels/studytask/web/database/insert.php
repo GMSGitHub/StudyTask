@@ -33,7 +33,7 @@
                 </div>
                 <hr>
                 <button class="buttons" onclick="">
-                    <a href="#">Accept</a>
+                    <a href="#">Execute</a>
                 </button>
                 <button class="buttons">
                     <a href="../index.php" >Cancel</a>

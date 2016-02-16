@@ -1,0 +1,4 @@
+INSERT INTO students (surename, name, lastname, adress) VALUES ('Иванов', 'Иван', 'Иванович', 'Сокольники');
+INSERT INTO students (surename, name, lastname, adress) VALUES ('Петров', 'Павел', 'Сергеевич', 'Выхино');
+INSERT INTO students (surename, name, lastname, adress) VALUES ('Сидоров', 'Петр', 'Романович', 'Люблино');
+INSERT INTO students (surename, name, lastname, adress) VALUES ('Колубелов', 'Георгий', 'Михайлович', 'Новокосино');

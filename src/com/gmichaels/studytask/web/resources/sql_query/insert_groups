@@ -1,0 +1,4 @@
+INSERT INTO groups (name_group) VALUE ('КБ-3 1401з');
+INSERT INTO groups (name_group) VALUE ('РК-7 8940в');
+INSERT INTO groups (name_group) VALUE ('СД-12 7539д');
+INSERT INTO groups (name_group) VALUE ('НТ-17 1598з');

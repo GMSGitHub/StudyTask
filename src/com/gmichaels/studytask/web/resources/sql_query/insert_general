@@ -1,0 +1,4 @@
+INSERT INTO general (id_student, id_group, id_discipline, id_mark, stipend) VALUES ('68', '81', '28', '62', '2000');
+INSERT INTO general (id_student, id_group, id_discipline, id_mark, stipend) VALUES ('72', '87', '31', '51', '2000');
+INSERT INTO general (id_student, id_group, id_discipline, id_mark, stipend) VALUES ('84', '93', '35', '48', '2000');
+INSERT INTO general (id_student, id_group, id_discipline, id_mark, stipend) VALUES ('91', '96', '45', '64', '2000');

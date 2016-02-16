@@ -1,0 +1,6 @@
+INSERT INTO marks (value_mark) VALUE ('Неявка');
+INSERT INTO marks (value_mark) VALUE ('Недопуск');
+INSERT INTO marks (value_mark) VALUE ('2');
+INSERT INTO marks (value_mark) VALUE ('3');
+INSERT INTO marks (value_mark) VALUE ('4');
+INSERT INTO marks (value_mark) VALUE ('5');

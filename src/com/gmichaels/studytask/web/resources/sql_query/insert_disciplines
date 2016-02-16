@@ -1,0 +1,4 @@
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Веб', '27', '16.06.11');
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Английский Язык', '43', '16.06.16');
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('C++', '32', '16.06.19');
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Алгоритмы', '39', '16.06.23');

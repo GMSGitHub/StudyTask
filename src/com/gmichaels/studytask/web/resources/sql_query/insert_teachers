@@ -1,0 +1,4 @@
+INSERT INTO teachers (surename_teacher) VALUE ('Мерсов А.А.');
+INSERT INTO teachers (surename_teacher) VALUE ('Выжигин А.Ю.');
+INSERT INTO teachers (surename_teacher) VALUE ('Лосева С.В.');
+INSERT INTO teachers (surename_teacher) VALUE ('Филатов В.В.');
