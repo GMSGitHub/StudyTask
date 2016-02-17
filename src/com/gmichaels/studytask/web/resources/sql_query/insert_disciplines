@@ -2,3 +2,9 @@ INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Веб
 INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Английский Язык', '43', '16.06.16');
 INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('C++', '32', '16.06.19');
 INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Алгоритмы', '39', '16.06.23');
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('С', '32', '16.06.21');
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Базы Данных', '27', '16.06.24');
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Русский Язык', '43', '16.06.27');
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Математика', '39', '16.06.28');
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Физика', '42', '16.06.29');
+INSERT INTO disciplines (name_discipline, id_teacher, exam_date) VALUES ('Электротехника', '42', '16.07.02');

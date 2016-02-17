@@ -1,4 +1,22 @@
-INSERT INTO students (surename, name, lastname, adress) VALUES ('Иванов', 'Иван', 'Иванович', 'Сокольники');
-INSERT INTO students (surename, name, lastname, adress) VALUES ('Петров', 'Павел', 'Сергеевич', 'Выхино');
-INSERT INTO students (surename, name, lastname, adress) VALUES ('Сидоров', 'Петр', 'Романович', 'Люблино');
-INSERT INTO students (surename, name, lastname, adress) VALUES ('Колубелов', 'Георгий', 'Михайлович', 'Новокосино');
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Иванов', 'Иван', 'Иванович', 'Сокольники', 143);
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Петров', 'Павел', 'Сергеевич', 'Выхино', 157);
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Сидоров', 'Петр', 'Романович', 'Люблино', 168);
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Колубелов', 'Георгий', 'Михайлович', 'Новокосино', 179);
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Петросянов', 'Василий', 'Игнатьевич', 'Университет', 157);
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Якубович', 'Яков', 'Дмитриевич', 'Третьяковская', 157);
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Медведев', 'Дмитрий', 'Анатольевич', 'Охотный ряд', 143);
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Путин', 'Владимир', 'Владимирович', 'Чистые пруды', 168);
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Сорбо', 'Изобель', 'Николаевна', 'Черкизовская', 143);
+INSERT INTO students (surename, name, lastname, adres, id_group)
+              VALUES ('Козлов', 'Алексей', 'Петрович', 'Преображенская площадь', 157);
+
+# UPDATE students SET id_group = 157 WHERE id_group = 143

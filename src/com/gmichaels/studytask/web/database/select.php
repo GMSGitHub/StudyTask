@@ -35,6 +35,9 @@
         </button>
         <button class="buttons">
             <a href="../index.php" >Cancel</a>
+            <?php
+            require 'connect.php';
+            ?>
         </button>
     </div>
 </form>

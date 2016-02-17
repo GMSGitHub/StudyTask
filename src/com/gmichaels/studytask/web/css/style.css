@@ -52,3 +52,17 @@ a {
     color: inherit;
 
 }
+
+.taskAnswer {
+
+    border: double green;
+    padding: 5px;
+
+}
+
+.taskQ {
+
+    border: double darkred;
+    padding: 3px;
+
+}

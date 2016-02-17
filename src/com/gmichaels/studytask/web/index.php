@@ -11,6 +11,14 @@
                 <button class="buttons">
                     <a href="database/testconnect.php">Test Connect</a>
                 </button>
+                <hr>
+                <button class="buttons">
+                    <a href="database/test.php">SELECT_TEST</a>
+                </button>
+                <hr>
+                <button class="buttons">
+                    <a href="database/task2web_page.php">TASK2_WebPage</a>
+                </button>
             </form>
             <form class="main">
                 <hr>

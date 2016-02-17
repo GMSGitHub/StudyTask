@@ -20,11 +20,15 @@
                 <input type="text" class="fields" id="field3" name="pass"/>
             </div>
             <div class="customizePage">
-                <label for="field4">DB: </label>
+                <label for="field4">DB NAME: </label>
                 <input type="text" class="fields" id="field4" name="db_name"/>
             </div>
+            <hr>
             <p align="center">
-                <button class="buttons" name="testButtons" >Test Connect</button>
+                <button class="buttons" name="testButtons" >Connect</button>
+                <button class="buttons" name="testButtons">
+                    <a href="../index.php">Back</a>
+                </button>
             </p>
     </form>
 </body>
