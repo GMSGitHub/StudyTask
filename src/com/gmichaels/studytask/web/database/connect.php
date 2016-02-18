@@ -1,7 +1,10 @@
 <?php
-mysql_connect("localhost", "mysql", "mysql")//параметры в скобках ("хост", "имя пользователя", "пароль")
-or die("<p>Ошибка подключения к базе данных! " . mysql_error() . "</p>");
+$DB = @mysql_connect('localhost', 'mysql', 'mysql');
+$TABLE = @mysql_select_db('web_schema', $DB);
 
-mysql_select_db("web_schema")//параметр в скобках ("имя базы, с которой соединяемся")
-or die("<p>Ошибка выбора базы данных! ". mysql_error() . "</p>");
+if (!($DB AND $TABLE)) {
+
+    echo 'Go Away Hacker :(';
+
+}
 ?>

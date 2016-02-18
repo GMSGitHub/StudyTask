@@ -33,3 +33,46 @@
 </form>
 </body>
 </html>
+
+***********************************************
+<?php
+        if (isset($_POST['surename']))
+        if (isset($_POST['name']))
+        if (isset($_POST['lastname']))
+        if (isset($_POST['adres']))
+        if (isset($_POST['group']))
+        if (isset($_POST['discipline']))
+        if (isset($_POST['exam_date']))
+        if (isset($_POST['teacher']))
+        if (isset($_POST['mark']))
+        if (isset($_POST['stipend']))
+
+
+        echo $_POST['surename'];
+        echo $_POST['name'];
+        echo $_POST['lastname'];
+        echo $_POST['adres'];
+        echo $_POST['group'];
+        echo $_POST['discipline'];
+        echo $_POST['exam_date'];
+        echo $_POST['teacher'];
+        echo $_POST['mark'];
+        echo $_POST['stipend'];
+
+
+********
+
+ $surename = $_POST['surename'];
+            $name = $_POST['name'];
+            $lastname = $_POST('lastname');
+            $adres = $_POST('adres');
+            $group = $_POST('group');
+
+*******************
+<?php
+mysql_connect("localhost", "mysql", "mysql")//параметры в скобках ("хост", "имя пользователя", "пароль")
+or die("<p>Ошибка подключения к базе данных! " . mysql_error() . "</p>");
+
+mysql_select_db("web_schema")//параметр в скобках ("имя базы, с которой соединяемся")
+or die("<p>Ошибка выбора базы данных! ". mysql_error() . "</p>");
+?>

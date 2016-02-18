@@ -52,9 +52,7 @@
                 <input type="text" class="fields" id="field10" name="stipend"/>
             </div>
             <hr>
-            <button class="buttons" name="postButton">
-                <a href="task2web_page_insert.php">Execute</a>
-            </button>
+            <input class="buttons" type="submit" name="submit" value="Execute">
             <button class="buttons">
                 <a href="../index.php" >Cancel</a>
             </button>
