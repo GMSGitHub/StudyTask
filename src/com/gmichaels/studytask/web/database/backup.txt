@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StudyTask: Lab #1</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+</head>
+<body>
+<form class="main">
+    <p align="center">
+        <button class="buttons" name="testButtons">
+            <a href="testconnect.php">Back</a>
+        </button>
+    </p>
+    <hr>
+    <h3>
+        <?php
+        if( isset( $_POST['postButton'] ) )
+            print $_POST['surename'];
+            echo $_POST['surename'];
+            echo $_POST['name'];
+            echo $_POST['lastname'];
+            echo $_POST['adres'];
+            echo $_POST['group'];
+            echo $_POST['teacher'];
+            echo $_POST['discipline'];
+            echo $_POST['exam_date'];
+            echo $_POST['mark'];
+            echo $_POST['stipend'];
+
+        ?>
+    </h3>
+</form>
+</body>
+</html>
