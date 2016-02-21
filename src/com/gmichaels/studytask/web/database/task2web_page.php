@@ -29,7 +29,17 @@
             </div>
             <div class="customizePage">
                 <label for="field5">Группа: </label>
-                <input type="text" class="fields" id="field5" name="group"/>
+                <?php
+                $connect=mysql_connect('localhost','mysql','mysql') or die(mysql_error());
+                mysql_select_db('web_schema',$connect) or die(mysql_error());
+                $sql_query = "SELECT name_group FROM groups";
+                $result = mysql_query($sql_query) or die(mysql_error());
+                echo "<select class='fields' name='groups_list'>"."<option disabled>"."Выберите группу";
+                    while($row = mysql_fetch_array($result)){
+                    echo "<option value='".$row["name_group"]."'>".$row["name_group"]."</option>";
+                    }mysql_free_result($result);
+                    echo "</select>";
+                ?>
             </div>
             <div class="customizePage">
                 <label for="field6">Преподаватель: </label>
@@ -37,11 +47,30 @@
             </div>
             <div class="customizePage">
                 <label for="field7">Дисциплина: </label>
-                <input type="text" class="fields" id="field7" name="discipline"/>
+                <?php
+                $connect=mysql_connect('localhost','mysql','mysql') or die(mysql_error());
+                mysql_select_db('web_schema',$connect) or die(mysql_error());
+                $sql_query = "SELECT name_discipline FROM disciplines";
+                $result = mysql_query($sql_query) or die(mysql_error());
+                echo "<select class='fields' name='disciplines_list'>"."<option disabled>"."Выберите дисциплину"."</option>";
+                while($row = mysql_fetch_array($result)){
+                    echo "<option value='".$row["name_discipline"]."'>".$row["name_discipline"]."</option>";
+                }mysql_free_result($result);
+                echo "</select>";
+                ?>
             </div>
             <div class="customizePage">
                 <label for="field8">Дата Экзамена: </label>
-                <input type="text" class="fields" id="field8" name="exam_date"/>
+                <?php
+                $connect=mysql_connect('localhost','mysql','mysql') or die(mysql_error());
+                mysql_select_db('web_schema',$connect) or die(mysql_error());
+                $id_discipline = $_POST['disciplines_list'];
+                $search_exam_date_id = "SELECT exam_date FROM  `disciplines` WHERE name_discipline =  '$id_discipline'";
+                $search_exam_date_id = mysql_fetch_row(mysql_query($search_exam_date_id));
+                $fined_exam_date_id=$search_exam_date_id[0];
+                mysql_free_result($search_exam_date_id);
+                echo $fined_exam_date_id;
+                ?>
             </div>
             <div class="customizePage">
                 <label for="field9">Оценка: </label>
